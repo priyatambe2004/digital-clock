@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="clock" aria-label="Digital clock">
+    <time id="time" class="time" aria-live="off">
+      <span id="hours">00</span><span class="sep">:</span><span id="minutes">00</span><span class="sep">:</span><span id="seconds">00</span>
+    </time>
+    <p id="period" class="period">AM</p>
+    <p id="date" class="date"></p>
+    <button id="toggle" class="toggle" type="button">Switch to 24-hour</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
